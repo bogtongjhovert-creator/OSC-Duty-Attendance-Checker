@@ -1,0 +1,413 @@
+{
+  "profiles": [
+    {
+      "id": "usr_admin_01",
+      "auth_user_id": "auth_usr_01",
+      "full_name": "Engr. Jhovert Bogtong",
+      "email": "bogtong.jhovert@panpacificu.edu.ph",
+      "user_identifier": "EMP-2026-001",
+      "department": "Office of the Chancellor & IT",
+      "role": "admin",
+      "profile_photo_url": "/src/assets/images/staff_avatar_portrait_1791949678442.jpg",
+      "account_status": "active",
+      "created_at": "2026-09-14T04:05:17.499Z",
+      "updated_at": "2026-10-14T04:05:17.499Z"
+    },
+    {
+      "id": "usr_faculty_02",
+      "auth_user_id": "auth_usr_02",
+      "full_name": "Dr. Elena Santos",
+      "email": "elena.santos@panpacificu.edu.ph",
+      "user_identifier": "FAC-2026-012",
+      "department": "College of Computer Studies",
+      "role": "operator",
+      "profile_photo_url": "/src/assets/images/faculty_avatar_portrait_1791949678314.jpg",
+      "account_status": "active",
+      "created_at": "2026-09-19T04:05:17.499Z",
+      "updated_at": "2026-10-14T04:05:17.499Z"
+    },
+    {
+      "id": "usr_operator_03",
+      "auth_user_id": "auth_usr_03",
+      "full_name": "Marcus Vance",
+      "email": "marcus.vance@panpacificu.edu.ph",
+      "user_identifier": "EMP-2026-045",
+      "department": "Student Affairs & Campus Security",
+      "role": "operator",
+      "profile_photo_url": "/src/assets/images/staff_avatar_portrait_1791949678442.jpg",
+      "account_status": "active",
+      "created_at": "2026-09-24T04:05:17.499Z",
+      "updated_at": "2026-10-14T04:05:17.499Z"
+    },
+    {
+      "id": "usr_student_04",
+      "auth_user_id": "auth_usr_04",
+      "full_name": "Maria Katrina Ramos",
+      "email": "katrina.ramos@panpacificu.edu.ph",
+      "user_identifier": "STU-2026-101",
+      "department": "BS Computer Science",
+      "role": "user",
+      "profile_photo_url": "/src/assets/images/student_avatar_portrait_1791949677861.jpg",
+      "account_status": "active",
+      "created_at": "2026-09-29T04:05:17.499Z",
+      "updated_at": "2026-10-14T04:05:17.499Z"
+    },
+    {
+      "id": "usr_student_05",
+      "auth_user_id": "auth_usr_05",
+      "full_name": "Christian Bautista",
+      "email": "christian.bautista@panpacificu.edu.ph",
+      "user_identifier": "STU-2026-102",
+      "department": "BS Information Technology",
+      "role": "user",
+      "profile_photo_url": "",
+      "account_status": "active",
+      "created_at": "2026-09-30T04:05:17.499Z",
+      "updated_at": "2026-10-14T04:05:17.499Z"
+    },
+    {
+      "id": "usr_student_06",
+      "auth_user_id": "auth_usr_06",
+      "full_name": "Sofia Isabel Reyes",
+      "email": "sofia.reyes@panpacificu.edu.ph",
+      "user_identifier": "STU-2026-103",
+      "department": "College of Allied Health",
+      "role": "user",
+      "profile_photo_url": "",
+      "account_status": "active",
+      "created_at": "2026-10-02T04:05:17.499Z",
+      "updated_at": "2026-10-14T04:05:17.499Z"
+    },
+    {
+      "id": "usr_student_07",
+      "auth_user_id": "auth_usr_07",
+      "full_name": "Gabriel Morales",
+      "email": "gabriel.morales@panpacificu.edu.ph",
+      "user_identifier": "STU-2026-104",
+      "department": "School of Engineering",
+      "role": "user",
+      "profile_photo_url": "",
+      "account_status": "active",
+      "created_at": "2026-10-04T04:05:17.499Z",
+      "updated_at": "2026-10-14T04:05:17.499Z"
+    },
+    {
+      "id": "usr_student_08",
+      "auth_user_id": "auth_usr_08",
+      "full_name": "Liam Alexander Chen",
+      "email": "liam.chen@panpacificu.edu.ph",
+      "user_identifier": "STU-2026-105",
+      "department": "Business Administration",
+      "role": "user",
+      "profile_photo_url": "",
+      "account_status": "active",
+      "created_at": "2026-10-06T04:05:17.499Z",
+      "updated_at": "2026-10-14T04:05:17.499Z"
+    },
+    {
+      "id": "usr_student_09",
+      "auth_user_id": "auth_usr_09",
+      "full_name": "Hannah Mendoza (Deactivated)",
+      "email": "hannah.mendoza@panpacificu.edu.ph",
+      "user_identifier": "STU-2026-106",
+      "department": "College of Arts & Sciences",
+      "role": "user",
+      "profile_photo_url": "",
+      "account_status": "deactivated",
+      "created_at": "2026-10-08T04:05:17.499Z",
+      "updated_at": "2026-10-14T04:05:17.499Z"
+    },
+    {
+      "id": "usr_student_10",
+      "auth_user_id": "auth_usr_10",
+      "full_name": "Raphael Gomez (Revoked QR)",
+      "email": "raphael.gomez@panpacificu.edu.ph",
+      "user_identifier": "STU-2026-107",
+      "department": "Maritime Studies",
+      "role": "user",
+      "profile_photo_url": "",
+      "account_status": "active",
+      "created_at": "2026-10-09T04:05:17.499Z",
+      "updated_at": "2026-10-14T04:05:17.499Z"
+    }
+  ],
+  "qr_credentials": [
+    {
+      "id": "qrc_1",
+      "user_id": "usr_admin_01",
+      "token_hash": "QRC-D5A2046F7462935B3EB9969A",
+      "credential_status": "active",
+      "issued_at": "2026-09-14T04:05:17.499Z",
+      "revoked_at": null,
+      "last_used_at": "2026-10-14T04:07:05.446Z"
+    },
+    {
+      "id": "qrc_2",
+      "user_id": "usr_faculty_02",
+      "token_hash": "QRC-5A6F7E4F6EA2286466943070",
+      "credential_status": "active",
+      "issued_at": "2026-09-19T04:05:17.499Z",
+      "revoked_at": null,
+      "last_used_at": null
+    },
+    {
+      "id": "qrc_3",
+      "user_id": "usr_operator_03",
+      "token_hash": "QRC-B90F8AD6F2C7F3A73261ACD4",
+      "credential_status": "active",
+      "issued_at": "2026-09-24T04:05:17.499Z",
+      "revoked_at": null,
+      "last_used_at": "2026-10-14T04:21:44.884Z"
+    },
+    {
+      "id": "qrc_4",
+      "user_id": "usr_student_04",
+      "token_hash": "QRC-F4EC98C13C1BA4E69597F452",
+      "credential_status": "active",
+      "issued_at": "2026-09-29T04:05:17.499Z",
+      "revoked_at": null,
+      "last_used_at": null
+    },
+    {
+      "id": "qrc_5",
+      "user_id": "usr_student_05",
+      "token_hash": "QRC-13DFE1F80A5DB6BAD8292562",
+      "credential_status": "active",
+      "issued_at": "2026-09-30T04:05:17.499Z",
+      "revoked_at": null,
+      "last_used_at": null
+    },
+    {
+      "id": "qrc_6",
+      "user_id": "usr_student_06",
+      "token_hash": "QRC-F180FE994C3E607FF80ED0D1",
+      "credential_status": "active",
+      "issued_at": "2026-10-02T04:05:17.499Z",
+      "revoked_at": null,
+      "last_used_at": null
+    },
+    {
+      "id": "qrc_7",
+      "user_id": "usr_student_07",
+      "token_hash": "QRC-1B06ED94D434CE5793DAF6D3",
+      "credential_status": "active",
+      "issued_at": "2026-10-04T04:05:17.499Z",
+      "revoked_at": null,
+      "last_used_at": null
+    },
+    {
+      "id": "qrc_8",
+      "user_id": "usr_student_08",
+      "token_hash": "QRC-75A73E13FEF08923D1F3F666",
+      "credential_status": "active",
+      "issued_at": "2026-10-06T04:05:17.499Z",
+      "revoked_at": null,
+      "last_used_at": null
+    },
+    {
+      "id": "qrc_9",
+      "user_id": "usr_student_09",
+      "token_hash": "QRC-93F7717F93D04648F0060D87",
+      "credential_status": "active",
+      "issued_at": "2026-10-08T04:05:17.499Z",
+      "revoked_at": null,
+      "last_used_at": null
+    },
+    {
+      "id": "qrc_10",
+      "user_id": "usr_student_10",
+      "token_hash": "QRC-681F4266BD6D5C83C1942B62",
+      "credential_status": "revoked",
+      "issued_at": "2026-10-09T04:05:17.499Z",
+      "revoked_at": "2026-10-14T04:05:17.500Z",
+      "last_used_at": null
+    }
+  ],
+  "attendance_sessions": [
+    {
+      "id": "ses_morning_today",
+      "session_name": "Morning General Academic Session",
+      "attendance_date": "2026-10-14",
+      "check_in_start": "07:00",
+      "check_in_end": "11:30",
+      "check_out_start": "16:00",
+      "check_out_end": "18:30",
+      "late_threshold": "08:30",
+      "status": "active",
+      "created_by": "usr_admin_01",
+      "created_at": "2026-10-14T04:05:17.500Z"
+    },
+    {
+      "id": "ses_afternoon_today",
+      "session_name": "Afternoon Laboratory & Workshop",
+      "attendance_date": "2026-10-14",
+      "check_in_start": "13:00",
+      "check_in_end": "15:30",
+      "check_out_start": "17:30",
+      "check_out_end": "19:30",
+      "late_threshold": "13:30",
+      "status": "active",
+      "created_by": "usr_admin_01",
+      "created_at": "2026-10-14T04:05:17.500Z"
+    },
+    {
+      "id": "ses_symposium_upcoming",
+      "session_name": "Annual Research & Innovation Symposium",
+      "attendance_date": "2026-10-15",
+      "check_in_start": "08:00",
+      "check_in_end": "10:00",
+      "check_out_start": "16:00",
+      "check_out_end": "17:30",
+      "late_threshold": "08:45",
+      "status": "upcoming",
+      "created_by": "usr_admin_01",
+      "created_at": "2026-10-14T04:05:17.500Z"
+    }
+  ],
+  "attendance_records": [
+    {
+      "id": "rec_1791951704884_1zxn",
+      "user_id": "usr_operator_03",
+      "session_id": "ses_morning_today",
+      "check_in_at": "2026-10-14T04:21:44.884Z",
+      "check_out_at": null,
+      "attendance_status": "present",
+      "recorded_by": "Public Entrance Terminal",
+      "created_at": "2026-10-14T04:21:44.884Z",
+      "updated_at": "2026-10-14T04:21:44.884Z"
+    },
+    {
+      "id": "rec_1791950797779_k31a",
+      "user_id": "usr_admin_01",
+      "session_id": "ses_morning_today",
+      "check_in_at": "2026-10-14T04:06:37.779Z",
+      "check_out_at": "2026-10-14T04:07:05.446Z",
+      "attendance_status": "checked_out",
+      "recorded_by": "QR Scanner Station",
+      "created_at": "2026-10-14T04:06:37.779Z",
+      "updated_at": "2026-10-14T04:07:05.446Z"
+    },
+    {
+      "id": "rec_01",
+      "user_id": "usr_student_04",
+      "session_id": "ses_morning_today",
+      "check_in_at": "2026-10-14T08:05:22.000Z",
+      "check_out_at": null,
+      "attendance_status": "present",
+      "recorded_by": "Main Gate Station 1",
+      "created_at": "2026-10-14T08:05:22.000Z",
+      "updated_at": "2026-10-14T08:05:22.000Z"
+    },
+    {
+      "id": "rec_02",
+      "user_id": "usr_student_05",
+      "session_id": "ses_morning_today",
+      "check_in_at": "2026-10-14T08:42:15.000Z",
+      "check_out_at": null,
+      "attendance_status": "late",
+      "recorded_by": "Science Hall Scanner A",
+      "created_at": "2026-10-14T08:42:15.000Z",
+      "updated_at": "2026-10-14T08:42:15.000Z"
+    },
+    {
+      "id": "rec_03",
+      "user_id": "usr_faculty_02",
+      "session_id": "ses_morning_today",
+      "check_in_at": "2026-10-14T07:48:30.000Z",
+      "check_out_at": "2026-10-14T11:20:10.000Z",
+      "attendance_status": "checked_out",
+      "recorded_by": "Faculty Lounge Station",
+      "created_at": "2026-10-14T07:48:30.000Z",
+      "updated_at": "2026-10-14T11:20:10.000Z"
+    }
+  ],
+  "attendance_audit_logs": [
+    {
+      "id": "log_1791952408869",
+      "attendance_record_id": null,
+      "action": "admin_login",
+      "previous_values": null,
+      "updated_values": {
+        "role": "admin",
+        "ip": "127.0.0.1"
+      },
+      "performed_by": "Engr. Jhovert Bogtong",
+      "created_at": "2026-10-14T04:33:28.869Z"
+    },
+    {
+      "id": "log_1791951704884",
+      "attendance_record_id": "rec_1791951704884_1zxn",
+      "action": "check_in",
+      "previous_values": null,
+      "updated_values": {
+        "attendance_status": "present",
+        "check_in_at": "2026-10-14T04:21:44.884Z",
+        "session_name": "Morning General Academic Session"
+      },
+      "performed_by": "Public Entrance Terminal",
+      "created_at": "2026-10-14T04:21:44.884Z"
+    },
+    {
+      "id": "log_1791950825446",
+      "attendance_record_id": "rec_1791950797779_k31a",
+      "action": "check_out",
+      "previous_values": {
+        "check_out_at": null,
+        "attendance_status": "present"
+      },
+      "updated_values": {
+        "check_out_at": "2026-10-14T04:07:05.446Z",
+        "attendance_status": "checked_out"
+      },
+      "performed_by": "QR Scanner Station",
+      "created_at": "2026-10-14T04:07:05.446Z"
+    },
+    {
+      "id": "log_1791950797779",
+      "attendance_record_id": "rec_1791950797779_k31a",
+      "action": "check_in",
+      "previous_values": null,
+      "updated_values": {
+        "attendance_status": "present",
+        "check_in_at": "2026-10-14T04:06:37.779Z",
+        "session_name": "Morning General Academic Session"
+      },
+      "performed_by": "QR Scanner Station",
+      "created_at": "2026-10-14T04:06:37.779Z"
+    },
+    {
+      "id": "log_01",
+      "attendance_record_id": "rec_01",
+      "action": "check_in",
+      "previous_values": null,
+      "updated_values": {
+        "attendance_status": "present",
+        "check_in_at": "2026-10-14T08:05:22.000Z"
+      },
+      "performed_by": "Main Gate Station 1",
+      "created_at": "2026-10-14T08:05:22.000Z"
+    },
+    {
+      "id": "log_02",
+      "attendance_record_id": "rec_02",
+      "action": "check_in",
+      "previous_values": null,
+      "updated_values": {
+        "attendance_status": "late",
+        "check_in_at": "2026-10-14T08:42:15.000Z"
+      },
+      "performed_by": "Science Hall Scanner A",
+      "created_at": "2026-10-14T08:42:15.000Z"
+    }
+  ],
+  "system_settings": {
+    "organization_name": "OSC Scholar Duty Tracker",
+    "organization_code": "OSC-SCHOLARS",
+    "organization_logo_url": "/src/assets/images/org_institutional_logo_1791949676528.jpg",
+    "default_timezone": "Asia/Manila (UTC+8)",
+    "allow_manual_corrections": true,
+    "allow_checkout_same_qr": true,
+    "duplicate_scan_cooldown_seconds": 5,
+    "sound_feedback_enabled": true
+  }
+}

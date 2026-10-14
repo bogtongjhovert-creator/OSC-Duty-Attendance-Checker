@@ -1,0 +1,8 @@
+{
+  "name": "OSC Scholar Duty Tracker",
+  "description": "Centralized QR code scholar attendance and duty monitoring system with secure credential generation, live scanner, real-time database synchronization, and role-based access control.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
