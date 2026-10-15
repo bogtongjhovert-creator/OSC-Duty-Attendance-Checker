@@ -14,6 +14,8 @@ import {
   Building,
   Sparkles,
   Search,
+  Share2,
+  ScanLine,
 } from 'lucide-react';
 import { AttendanceSession, ScanResult, UserProfile } from '../types';
 import { api } from '../lib/api';
@@ -25,6 +27,8 @@ interface QrScannerProps {
   operatorName: string;
   allUsers: UserProfile[];
   onScanComplete?: (result: ScanResult) => void;
+  onOpenKiosk?: () => void;
+  onShareScanner?: () => void;
 }
 
 export const QrScanner: React.FC<QrScannerProps> = ({
@@ -33,6 +37,8 @@ export const QrScanner: React.FC<QrScannerProps> = ({
   operatorName,
   allUsers,
   onScanComplete,
+  onOpenKiosk,
+  onShareScanner,
 }) => {
   const [selectedSessionId, setSelectedSessionId] = useState<string>(activeSessionId || '');
   const [cameraActive, setCameraActive] = useState<boolean>(false);
@@ -269,6 +275,28 @@ export const QrScanner: React.FC<QrScannerProps> = ({
           >
             <RefreshCw className="w-5 h-5" />
           </button>
+
+          {onShareScanner && (
+            <button
+              onClick={onShareScanner}
+              className="inline-flex items-center gap-1.5 px-3 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-semibold rounded-lg border border-slate-200 transition-colors shadow-xs"
+              title="Share public scanner link & QR code"
+            >
+              <Share2 className="w-4 h-4 text-blue-600" />
+              <span className="hidden sm:inline">Share Link</span>
+            </button>
+          )}
+
+          {onOpenKiosk && (
+            <button
+              onClick={onOpenKiosk}
+              className="inline-flex items-center gap-1.5 px-3 py-2 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 text-sm font-semibold rounded-lg transition-colors shadow-xs"
+              title="Launch standalone public entrance terminal"
+            >
+              <ScanLine className="w-4 h-4 text-indigo-600" />
+              <span className="hidden sm:inline">Public Kiosk</span>
+            </button>
+          )}
 
           {!cameraActive ? (
             <button

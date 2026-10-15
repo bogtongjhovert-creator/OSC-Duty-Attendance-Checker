@@ -523,7 +523,7 @@ export default function App() {
                   key={item.id}
                   onClick={() => {
                     if (item.id === 'public-kiosk') {
-                      setIsKioskMode(true);
+                      enterKioskMode();
                     } else {
                       setActiveTab(item.id);
                     }
@@ -672,6 +672,8 @@ export default function App() {
               operatorName={currentUser?.full_name || 'Attendance Operator'}
               allUsers={users}
               onScanComplete={() => {}}
+              onOpenKiosk={enterKioskMode}
+              onShareScanner={() => setIsShareModalOpen(true)}
             />
           )}
 
@@ -698,6 +700,14 @@ export default function App() {
           )}
         </main>
       </div>
+
+      {/* Share Scanner Link & QR Pairing Modal */}
+      <ShareScannerModal
+        isOpen={isShareModalOpen}
+        onClose={() => setIsShareModalOpen(false)}
+        sessions={sessions}
+        settings={settings}
+      />
     </div>
   );
 }
